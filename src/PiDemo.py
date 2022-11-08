@@ -26,11 +26,11 @@ def blink_led(delay):
     led.set_output(0, 0)
     time.sleep(delay)
 
-    led.set_output(0, 1)
-    time.sleep(delay)
-
-    led.set_output(0, 0)
-    time.sleep(delay)
+    # led.set_output(0, 1)
+    # time.sleep(delay)
+    #
+    # led.set_output(0, 0)
+    # time.sleep(delay)
 
 
 def rotate_servo():
